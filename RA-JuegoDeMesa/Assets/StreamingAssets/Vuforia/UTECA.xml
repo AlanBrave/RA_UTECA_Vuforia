@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="FICHAS_11zon" size="10.000000 7.856063" />
+    <ImageTarget name="Monstruo2" size="10.000000 10.224279" />
+    <ImageTarget name="MONSTRUO" size="10.000000 13.333333" />
+  </Tracking>
+</QCARConfig>
