@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="naranja" size="10.000000 10.823077" />
+    <ImageTarget name="verde" size="10.000000 7.832880" />
+    <ImageTarget name="rosa" size="10.000000 9.745318" />
+    <ImageTarget name="azul" size="10.000000 7.701613" />
+    <ImageTarget name="rojo" size="10.000000 15.070422" />
     <ImageTarget name="FICHAS_11zon" size="10.000000 7.856063" />
     <ImageTarget name="Monstruo2" size="10.000000 10.224279" />
     <ImageTarget name="MONSTRUO" size="10.000000 13.333333" />
