@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="JuegoMesa_11zon" size="10.000000 6.666980" />
+    <ImageTarget name="JuegoMesa_11zon" size="300.000000 200.009415" />
     <ImageTarget name="Ingeniero" size="10.000000 9.701020" />
     <ImageTarget name="Monstruo3" size="10.000000 9.950759" />
     <ImageTarget name="Nino" size="10.000000 10.569476" />
