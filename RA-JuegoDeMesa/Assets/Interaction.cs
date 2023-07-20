@@ -18,7 +18,7 @@ public class Interaction : MonoBehaviour
     public bool IsInteracting = false;
     public float DetectionArea = 1.5f;
     public float InteractionArea = 1.5f;
-    public Vector3 DetctionOffset;
+    public Vector3 DetectionOffset;
 
     void FixedUpdate()
     {
@@ -31,10 +31,30 @@ public class Interaction : MonoBehaviour
 
     public bool IsObjectNearToObject()
     {
-        if (Vector3.Distance(RefObject))
+        if (Vector3.Distance(RefObject.transform.position, transform.position) <= DetectionArea)
+        {
+            IsInteracting = true;
+            return true;
+        }
+        IsInteracting = false;
+        return false;
     }
-    void Update()
+
+    public bool IsObjectInteractingWithObject()
     {
-        
+        if (Vector3.Distance(RefObject.transform.position, transform.position) <= InteractionArea)
+        {
+            IsInteracting = true;
+            return true;
+        }
+        IsInteracting = false;
+        return false;
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position + DetectionOffset, DetectionArea);
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position + DetectionOffset, InteractionArea);
     }
 }
