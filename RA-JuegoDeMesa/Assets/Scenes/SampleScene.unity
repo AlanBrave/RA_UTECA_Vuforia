@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &65102997 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e00d0027ae16cb74885a3ec5a8577832, type: 3}
+  m_PrefabInstance: {fileID: 1415594507}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &81827986
 GameObject:
   m_ObjectHideFlags: 0
@@ -2436,6 +2441,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1010156788 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0e5ef85b16aa8764382177340062f530, type: 3}
+  m_PrefabInstance: {fileID: 878421715}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1010156789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010156788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8797af79cf12b8b49bc4706b6f49afa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  RefObject: {fileID: 65102997}
+  IsObjectNear: 0
+  IsInteracting: 0
+  DetectionArea: 10
+  InteractionArea: 2.5
+  DetectionOffset: {x: 0, y: 0, z: 0}
+--- !u!65 &1010156790
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010156788}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1016625701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4075,6 +4117,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e00d0027ae16cb74885a3ec5a8577832, type: 3}
   m_PrefabInstance: {fileID: 1415594507}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1415594509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65102997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8797af79cf12b8b49bc4706b6f49afa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  RefObject: {fileID: 1010156788}
+  IsObjectNear: 0
+  IsInteracting: 0
+  DetectionArea: 10
+  InteractionArea: 2.5
+  DetectionOffset: {x: 0, y: 0, z: 0}
+--- !u!65 &1415594510
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65102997}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.061870117, y: 0.031852875, z: 0.08374176}
+  m_Center: {x: 0.00000011920929, y: 0, z: 0}
 --- !u!1001 &1422846487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4435,6 +4509,43 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561579954}
   m_Mesh: {fileID: -1621648850572678854, guid: 8ffb3d70e7ee79f41aac6eecdc056db0, type: 3}
+--- !u!1 &1581579325 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0fc96a89b3db53c40bc1b1a259e83f03, type: 3}
+  m_PrefabInstance: {fileID: 1407649236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1581579326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581579325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8797af79cf12b8b49bc4706b6f49afa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  RefObject: {fileID: 2028254091}
+  IsObjectNear: 0
+  IsInteracting: 0
+  DetectionArea: 10
+  InteractionArea: 2.5
+  DetectionOffset: {x: 0, y: 0, z: 0}
+--- !u!65 &1581579327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581579325}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1612582997
 GameObject:
   m_ObjectHideFlags: 0
@@ -5446,6 +5557,43 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990313345}
   m_Mesh: {fileID: 3157970566195749699, guid: 8ffb3d70e7ee79f41aac6eecdc056db0, type: 3}
+--- !u!1 &2028254091 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 77751c1193e7ad5489c760eab74bc582, type: 3}
+  m_PrefabInstance: {fileID: 175644286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2028254092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028254091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8797af79cf12b8b49bc4706b6f49afa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  RefObject: {fileID: 1581579325}
+  IsObjectNear: 0
+  IsInteracting: 0
+  DetectionArea: 10
+  InteractionArea: 2.5
+  DetectionOffset: {x: 0, y: 0, z: 0}
+--- !u!65 &2028254093
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028254091}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2040066156
 GameObject:
   m_ObjectHideFlags: 0
