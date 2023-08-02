@@ -295,7 +295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 361, y: -154}
+  m_AnchoredPosition: {x: 297, y: -193}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &189427702
@@ -717,8 +717,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -4}
-  m_SizeDelta: {x: 200, y: 200}
+  m_AnchoredPosition: {x: 1, y: 2.1655}
+  m_SizeDelta: {x: 200, y: 318.7623}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419998034
 MonoBehaviour:
@@ -906,7 +906,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -353, y: -157}
+  m_AnchoredPosition: {x: -298, y: -194}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &715818023
@@ -1079,19 +1079,20 @@ MonoBehaviour:
     cualquier casilla especial de reanimaci\xF3n, la cual para los que fueron capturados,
     ser\xE1n penalizados con el uso de un solo dado, hasta que encuentren otra casilla
     de reanimaci\xF3n y se curen por completo para volver a usar dos dados.\r\n\n-Misiones
-    que cada jugador deber\xE1 hacer en sus propias zonas\r\n\n---Misi\xF3n Normal
-    (+50) (1 Turno de espera para realizar cada acci\xF3n)\r\n\n---Misi\xF3n Especial
-    (+100) (2 Turnos de espera para realizar cada acci\xF3n)\r\n\n---Misi\xF3n \xDAnica
-    (+200) (3 Turnos de espera para realizar cada acci\xF3n)\r\n\n-Para las misiones,
-    los tripulantes podr\xE1n decidir si hacerla cuando lleguen a la zona de misi\xF3n
-    o seguir adelante sin hacerla.\r\n\n-Si alguien saca un doble n\xFAmero en la
-    tirada del dado por parte de los tripulantes, recibe 100 monedas de juego.\r\n\n-----El
-    Monstruo\r-----\n\r\n-Con dos dados el monstruo se mover\xE1. \r\n\n-Si alguien
-    es capturado por el monstruo, se quedar\xE1 inm\xF3vil en la casilla del monstruo
-    hasta que otro jugador lo rescate. Si un jugador no es rescatado despu\xE9s de
-    5 turnos, el jugador ser\xE1 eliminado.\r\n\n-El monstruo tendr\xE1 casillas
-    especiales para alcanzar a los jugadores que est\xE9n m\xE1s lejos de \xE9l.\r\n\n-Si
-    el monstruo captura a todos los jugadores, se termina el juego, ganando el monstruo.\r"
+    que cada jugador deber\xE1 hacer en sus propias zonas\r\n\n-------Misi\xF3n Normal
+    (+50) (1 Turno de espera para realizar cada acci\xF3n)\r\n\n-------Misi\xF3n
+    Especial (+100) (2 Turnos de espera para realizar cada acci\xF3n)\r\n\n-------Misi\xF3n
+    \xDAnica (+200) (3 Turnos de espera para realizar cada acci\xF3n)\r\n\n-Para
+    las misiones, los tripulantes podr\xE1n decidir si hacerla cuando lleguen a la
+    zona de misi\xF3n o seguir adelante sin hacerla.\r\n\n-Si alguien saca un doble
+    n\xFAmero en la tirada del dado por parte de los tripulantes, recibe 100 monedas
+    de juego.\r\n\n-----El Monstruo\r-----\n\r\n-Con dos dados el monstruo se mover\xE1.
+    \r\n\n-Si alguien es capturado por el monstruo, se quedar\xE1 inm\xF3vil en la
+    casilla del monstruo hasta que otro jugador lo rescate. Si un jugador no es rescatado
+    despu\xE9s de 5 turnos, el jugador ser\xE1 eliminado.\r\n\n-El monstruo tendr\xE1
+    casillas especiales para alcanzar a los jugadores que est\xE9n m\xE1s lejos de
+    \xE9l.\r\n\n-Si el monstruo captura a todos los jugadores, se termina el juego,
+    ganando el monstruo.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -1299,7 +1300,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14, y: -157}
+  m_AnchoredPosition: {x: 7, y: -197}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1399689766
@@ -1809,7 +1810,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 139}
+  m_AnchoredPosition: {x: 4, y: 182}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2053860731
